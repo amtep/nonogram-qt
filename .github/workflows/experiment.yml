@@ -7,7 +7,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: ccache
-        uses: amtep/ccache-action@18ce5be3e986db584ee491e0dcf271e4c40b44fc
+        uses: hendrikmuhs/ccache-action@bd43b7f5fb36d5f97ef5c6cc818a2055b04f610a
         with:
           key: ${{ runner.os }}
 
